@@ -1,0 +1,303 @@
+{
+  "passages": [
+    {
+      "text": "You are in the main square of the town of Fortune, the streets are pretty much deserted, except for a few of the townspeople.\n\nTo your left, is the saloon, The Crazy Uncle.\nTo your right, the County Jail, the Sheriff's name is Bill Barney.\nIn front of you, is the Town Hall, where Mayor Jeffrey H. Hann keeps his office; and the Honerable Judge James West resides over the County Court.\nDirectly behind you, the train station, which you can use to exit The Town of Fortune (THIS WILL EXIT THE GAME).\n\n[[Enter Saloon ->Saloon]]\n[[Enter Town Hall ->Town Hall]]\n[[Enter the Jail ->Jail]]",
+      "links": [
+        {
+          "name": "Enter Saloon",
+          "link": "Saloon",
+          "pid": "2"
+        },
+        {
+          "name": "Enter Town Hall",
+          "link": "Town Hall",
+          "pid": "3"
+        },
+        {
+          "name": "Enter the Jail",
+          "link": "Jail",
+          "pid": "4"
+        }
+      ],
+      "name": "Town Square",
+      "pid": "1",
+      "position": {
+        "x": "727",
+        "y": "1086"
+      }
+    },
+    {
+      "text": "Patrons are seated at the bar and several tables. Most are drinking beer from glasses, but several are 'enjoying' the locally distilled whiskey.\n\nYou can talk to the Bartender or Fats.\n\n[[Fats->Fats]]\n[[Bartender->Bartender Dialogue]]\n[[Leave->Town Square]]",
+      "links": [
+        {
+          "name": "Fats",
+          "link": "Fats",
+          "pid": "7"
+        },
+        {
+          "name": "Bartender",
+          "link": "Bartender Dialogue",
+          "pid": "8"
+        },
+        {
+          "name": "Leave",
+          "link": "Town Square",
+          "pid": "1"
+        }
+      ],
+      "name": "Saloon",
+      "pid": "2",
+      "position": {
+        "x": "301",
+        "y": "1101"
+      }
+    },
+    {
+      "text": "The Mayor's Secretary is seated at her desk to the left of the entrance, she is too busy to talk to you. The door to his office is to the right.\n\nAcross from the entrance, through a set of double doors is the county court.\n\n[[Enter Office->Mayor's Office]]\n[[Enter Courtroom->Courtroom Door]]\n[[Leave->Town Square]]",
+      "links": [
+        {
+          "name": "Enter Office",
+          "link": "Mayor's Office",
+          "pid": "5"
+        },
+        {
+          "name": "Enter Courtroom",
+          "link": "Courtroom Door",
+          "pid": "6"
+        },
+        {
+          "name": "Leave",
+          "link": "Town Square",
+          "pid": "1"
+        }
+      ],
+      "name": "Town Hall",
+      "pid": "3",
+      "position": {
+        "x": "722",
+        "y": "877"
+      }
+    },
+    {
+      "text": "The county jail, the Sheriff is holding a local drunk until he sobers up.\n\n[[Sheriff->Sheriff]]\n[[Leave->Town Square]] ",
+      "links": [
+        {
+          "name": "Sheriff",
+          "link": "Sheriff",
+          "pid": "12"
+        },
+        {
+          "name": "Leave",
+          "link": "Town Square",
+          "pid": "1"
+        }
+      ],
+      "name": "Jail",
+      "pid": "4",
+      "position": {
+        "x": "1101",
+        "y": "1099"
+      }
+    },
+    {
+      "text": "The Door to the Mayor's Office is locked.\n[[Leave->Town Hall]]",
+      "links": [
+        {
+          "name": "Leave",
+          "link": "Town Hall",
+          "pid": "3"
+        }
+      ],
+      "name": "Mayor's Office",
+      "pid": "5",
+      "position": {
+        "x": "1001",
+        "y": "699"
+      }
+    },
+    {
+      "text": "The door to the courtroom is locked.\n[[Leave->Town Hall]]",
+      "links": [
+        {
+          "name": "Leave",
+          "link": "Town Hall",
+          "pid": "3"
+        }
+      ],
+      "name": "Courtroom Door",
+      "pid": "6",
+      "position": {
+        "x": "600",
+        "y": "696"
+      }
+    },
+    {
+      "text": "*Buuuuuuuuuuurrrrrp* H-Hey strangerrr! I's is Fats! But most people call me Fats! Hehe, oops! \n\nHey, Buddy... Do you know where Lennie is? He went out to crack a piss a few hours ago, and hasn't come back. \n\n[[Jail->Fats is Grateful]]",
+      "links": [
+        {
+          "name": "Jail",
+          "link": "Fats is Grateful",
+          "pid": "9"
+        }
+      ],
+      "name": "Fats",
+      "pid": "7",
+      "position": {
+        "x": "518",
+        "y": "1278"
+      }
+    },
+    {
+      "text": "Buy something or get out!\n[[Leave->Saloon]]",
+      "links": [
+        {
+          "name": "Leave",
+          "link": "Saloon",
+          "pid": "2"
+        }
+      ],
+      "name": "Bartender Dialogue",
+      "pid": "8",
+      "position": {
+        "x": "98",
+        "y": "1001"
+      }
+    },
+    {
+      "text": "HAHAHA what a moron! Thanks for the help stranger. This town has everything a fella suchs yourselfs could hope to get from the world.\n\nTell me about yourself.\n\n[[I'm just a drifter->Fats is Disappointed]]\n[[I'm going to run for Mayor->Fats is Excited]]",
+      "links": [
+        {
+          "name": "I'm just a drifter",
+          "link": "Fats is Disappointed",
+          "pid": "10"
+        },
+        {
+          "name": "I'm going to run for Mayor",
+          "link": "Fats is Excited",
+          "pid": "11"
+        }
+      ],
+      "name": "Fats is Grateful",
+      "pid": "9",
+      "position": {
+        "x": "338",
+        "y": "1383"
+      }
+    },
+    {
+      "text": "Oh okay, well then safe travels I guess... If you change your mind and decide you want to <u>Make something of your life</u> then come back and talk to me again!\n\n[[Leave->Saloon]]",
+      "links": [
+        {
+          "name": "Leave",
+          "link": "Saloon",
+          "pid": "2"
+        }
+      ],
+      "name": "Fats is Disappointed",
+      "pid": "10",
+      "position": {
+        "x": "161",
+        "y": "1490"
+      }
+    },
+    {
+      "text": "You'll need some money ifn you plan on seeking political office. Hmmmmm...\n\nI GOT IT! MY BOY LENNIE CAN HELP YOU OUT! Let's go to the jail and get him.\n\n[[OK->Lennie]]",
+      "links": [
+        {
+          "name": "OK",
+          "link": "Lennie",
+          "pid": "13"
+        }
+      ],
+      "name": "Fats is Excited",
+      "pid": "11",
+      "position": {
+        "x": "477",
+        "y": "1491"
+      }
+    },
+    {
+      "text": "Can I help you, Stranger? I'm the Sheriff around these parts, name's Barney, Bill Barney.\n\nListen, I don't mean any insult partner, but if there's nothing you need, I'll have to kindly ask you to leave.\n\n[[Leave->Town Square]] ",
+      "links": [
+        {
+          "name": "Leave",
+          "link": "Town Square",
+          "pid": "1"
+        }
+      ],
+      "name": "Sheriff",
+      "pid": "12",
+      "position": {
+        "x": "1102",
+        "y": "1248"
+      }
+    },
+    {
+      "text": "*He's asleep on the bench inside of a cell which takes up about a third of the room*\n\n*Fats bangs his fist on the cell bars*\n\n\"Wha?! Mommy I don't wanna go to school! Oh, it's you Fats, and who's this Stranger you've got with you?\"\n\n\"This is my new friend, he helped me find you... We owe him, so I thought you could let him in on that thing you're working on. This guy's gonna be Mayor of Fortune, I can tell!\"\n\n\"Oh that... are you sure you're cut out for it?\"\n\n[[For what?->Lennie is sober]]",
+      "links": [
+        {
+          "name": "For what?",
+          "link": "Lennie is sober",
+          "pid": "14"
+        }
+      ],
+      "name": "Lennie",
+      "pid": "13",
+      "position": {
+        "x": "1303",
+        "y": "1401"
+      }
+    },
+    {
+      "text": "You and Fats follow Lennie on foot for a few hours, during your journey you discuss topics such as politics and pop culture.\n\nFinally, you come upon a river and not far off is a small one room shack.\n\n\"I'm a prospector, and these hills are rich with gold, more than any one man could know what to do with.\"\n\n\"Since you helped me find Lennie, we decided to help you get a job!\"\n\n<b>If you return to town, you will not be able to come back, so work here for a few days at least!</b>\n\nWhat do you say?\n\n[[Let's get started->The Motherlode]]\n[[Leave->Town Square]]",
+      "links": [
+        {
+          "name": "Let's get started",
+          "link": "The Motherlode",
+          "pid": "15"
+        },
+        {
+          "name": "Leave",
+          "link": "Town Square",
+          "pid": "1"
+        }
+      ],
+      "name": "Lennie is sober",
+      "pid": "14",
+      "position": {
+        "x": "1302",
+        "y": "901"
+      }
+    },
+    {
+      "text": "It has been many weeks since you met Fats and Lennie...\n\nThrough the deepness of your breath and the heat of the Sun, you hear a resounding '''ping'''\n\nIt takes until midway through your next swing... and then everything goes black\n\nbut only for a second. then the haze of the day makes way for the bright shinging like of salvation, you've hit The Motherlode.\n\n\nYou have enough money to buy the election for Mayor.\n\nWill you take everything The Town of Fortune has to offer?\n\n[[Yes->Victory!!]]",
+      "links": [
+        {
+          "name": "Yes",
+          "link": "Victory!!",
+          "pid": "16"
+        }
+      ],
+      "name": "The Motherlode",
+      "pid": "15",
+      "position": {
+        "x": "1502",
+        "y": "801"
+      }
+    },
+    {
+      "text": "               *    *\n   *         '       *       .  *   '     .           * *\n                                                               '\n       *                *'          *          *        '\n   .           *               |               /\n               '.         |    |      '       |   '     *\n                 \\*        \\   \\             /\n       '          \\     '* |    |  *        |*                *  *\n            *      `.       \\   |     *     /    *      '\n  .                  \\      |   \\          /               *\n     *'  *     '      \\      \\   '.       |\n        -._            `                  /         *\n  ' '      ``._   *                           '          .      '\n   *           *\\*          * .   .      *\n*  '        *    `-._                       .         _..:='        *\n             .  '      *       *    *   .       _.:--'\n          *           .     .     *         .-'         *\n   .               '             . '   *           *         .\n  *       ___.-=--..-._     *                '               '\n                                  *       *\n                *        _.'  .'       `.        '  *             *\n     *              *_.-'   .'            `.               *\n                   .'                       `._             *  '\n   '       '                        .       .  `.     .\n       .                      *                  `\n               *        '             '                          .\n     .                          *        .           *  *\n             *        .                                    '\n\n\nCongratulations, your hard work paid off. You have been able to secure the position of the Mayor of the Town of Fortune, allowing for the establishment of generational wealth and landownership for generations of your family to come. Now, your children's children's children will never have to work a day in their entire lives, and can coast through life on the coattails of your success. Surely nothing can go wrong from this!",
+      "name": "Victory!!",
+      "pid": "16",
+      "position": {
+        "x": "1295.3333333333333",
+        "y": "366"
+      }
+    }
+  ],
+  "name": "Wild Wild West",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "F011797A-EE8D-44AD-8245-5F21C43AA491"
+}
